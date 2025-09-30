@@ -40,11 +40,18 @@ To get a local copy up and running, follow these simple steps.
 **1. Clone the repo:**
 ```bash
 git clone [https://github.com/vasylykiv/ecommerse_test_front.git](https://github.com/vasylykiv/ecommerse_test_front.git)
-
+```
+**2. Navigate to the project directory:**
+```bash
 cd ecommerse_test_front
-
+```
+**3. Install NPM packages:**
+```bash
 npm install
-
+```
+**4. Run the development server:**
+```bash
 npm run dev
 ```
+
 After this, open [http://localhost:3000](https://www.google.com/search?q=http://localhost:3000) in your browser to see the application.
