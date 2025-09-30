@@ -1,6 +1,6 @@
 # E-commerce App
 
-This is the frontend of a test e-commerce application built with Next.js and a modern tech stack. The application showcases the main functionality of an online store: browsing products, a product detail page, and a multi-step checkout process.
+This is the frontend of e-commerce application built with Next.js and a modern tech stack. The application showcases the main functionality of an online store: browsing products, a product detail page, and a multi-step checkout process.
 
 ---
 
