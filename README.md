@@ -1,36 +1,50 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Trendlama E-commerce App
 
-## Getting Started
+This is the frontend of a test e-commerce application built with Next.js and a modern tech stack. The application showcases the main functionality of an online store: browsing products, a product detail page, and a multi-step checkout process.
 
-First, run the development server:
+---
 
+## 🎨 Screenshots
+
+| Home Page                                                                                                                                                                    | Product Page                                                                                                                                                                   |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| <img src="https://raw.githubusercontent.com/vasylykiv/ecommerse_test_front/b43ed7ad6bce28b2f320e3c97643fb90841d3d38/ecommerce_app_previews/ecommerce_test_app.jpg" width="400"> | <img src="https://raw.githubusercontent.com/vasylykiv/ecommerse_test_front/b43ed7ad6bce28b2f320e3c97643fb90841d3d38/ecommerce_app_previews/ecommerce_test_app_page2.jpg" width="400"> |
+
+### Checkout Process
+
+| Step 1: Shopping Cart                                                                                                                                                                 | Step 2: Shipping Address                                                                                                                                                                  | Step 3: Payment Method                                                                                                                                                                  |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <img src="https://raw.githubusercontent.com/vasylykiv/ecommerse_test_front/b43ed7ad6bce28b2f320e3c97643fb90841d3d38/ecommerce_app_previews/ecommerce_test_app_page3_cart1.png" width="260"> | <img src="https://raw.githubusercontent.com/vasylykiv/ecommerse_test_front/b43ed7ad6bce28b2f320e3c97643fb90841d3d38/ecommerce_app_previews/ecommerce_test_app_page3_cart2.png" width="260"> | <img src="https://raw.githubusercontent.com/vasylykiv/ecommerse_test_front/b43ed7ad6bce28b2f320e3c97643fb90841d3d38/ecommerce_app_previews/ecommerce_test_app_page3_cart3.png" width="260"> |
+
+---
+
+## 🚀 Tech Stack
+
+This project is built using the following technologies and libraries:
+
+* **[Next.js](https://nextjs.org/)** - The React Framework for Production.
+* **[React](https://reactjs.org/)** - A JavaScript library for building user interfaces.
+* **[TypeScript](https://www.typescriptlang.org/)** - A strongly typed programming language that builds on JavaScript.
+* **[Tailwind CSS](https://tailwindcss.com/)** - A utility-first CSS framework for rapid UI development.
+* **[Zustand](https://github.com/pmndrs/zustand)** - A small, fast and scalable barebones state-management solution.
+* **[React Hook Form](https://react-hook-form.com/)** - Performant, flexible and extensible forms with easy-to-use validation.
+* **[Zod](https://zod.dev/)** - TypeScript-first schema declaration and validation library.
+* **[React-Toastify](https://fkhadra.github.io/react-toastify/introduction)** - A library to add notifications to your app.
+
+---
+
+## ⚙️ Getting Started
+
+To get a local copy up and running, follow these simple steps.
+
+**1. Clone the repo:**
 ```bash
+git clone [https://github.com/vasylykiv/ecommerse_test_front.git](https://github.com/vasylykiv/ecommerse_test_front.git)
+
+cd ecommerse_test_front
+
+npm install
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+After this, open [http://localhost:3000](https://www.google.com/search?q=http://localhost:3000) in your browser to see the application.
