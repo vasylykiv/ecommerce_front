@@ -39,7 +39,7 @@ To get a local copy up and running, follow these simple steps.
 
 **1. Clone the repo:**
 ```bash
-git clone [https://github.com/vasylykiv/ecommerce_front.git](https://github.com/vasylykiv/ecommerce_front.git)
+git clone https://github.com/vasylykiv/ecommerce_front.git
 ```
 **2. Navigate to the project directory:**
 ```bash
